@@ -22,9 +22,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'motion/react';
 
-const WHATSAPP_NUMBER = "5500000000000"; // Placeholder
-const WHATSAPP_MESSAGE = encodeURIComponent("Olá, gostaria de conhecer os produtos da Doce Pimenta.");
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
+const WHATSAPP_LINK = "https://www.contate.me/558187874887";
 
 const Button = ({ children, className = "", variant = "primary", ...props }: any) => {
   const variants = {
